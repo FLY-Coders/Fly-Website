@@ -42,11 +42,12 @@
     width: 400px;
     height: 70px;
     border-radius: 40px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.2s;
 }
 
 .buttom:hover {
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.2s;
+
     border-color: white;
 }
 

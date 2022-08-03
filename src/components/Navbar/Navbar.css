@@ -5,9 +5,17 @@
 
 .navbar {
     font-family: DeValencia;
-    background-color: #161616;
+    background-color: hsla(0, 0%, 9%, 0.826);
 }
 
 .navbar a {
     color: white;
+}
+
+.navbar a:hover {
+    color:  #F9A825;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F9A825 !important;
 }

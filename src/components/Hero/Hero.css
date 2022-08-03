@@ -22,39 +22,41 @@
 .hero-paragraph {
     color: #534f4f;
     font-size: 2rem;
-    margin-top: 15px;
-    margin-left: 80px;
+    margin-top: 20px;
+    margin-left: 125px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     position: relative;
+    width: 30%;
 }
 
 .logo{
-    margin-top: -4px;
-    margin-left: 13px;
-
+    margin-top: 10px;
 }
 
 .hero-logo{
     height: 400px;
     width: 400px;
-    margin-left: 65px;
-    margin-top: 100px;
-    border-left: solid white 1px;
-    border-bottom: solid white 1px;
+    margin-left: 85px;
+    margin-top: 120px;
+
+    
 }
 
 .hero-kanji{
     display: flex;
     justify-content: flex-end;
-    margin-right: 85px;
-
+    margin-bottom: 200px;
+    width: 30%;
+    margin-left: 70%;
+    position: relative ;
+    bottom: 210px;
+    
 }
 .kanji {
-    border-right: solid white 1px;
-    border-bottom: solid white 1px;
-    margin-bottom: 50px
+    margin-right: 175px;
+
 }
 
 @media (max-width: 1450px){
@@ -79,8 +81,6 @@
         width: 300px !important;
         margin-left: 60px !important; 
         margin-top: 90px !important;
-        border-left: solid white 1px;
-        border-bottom: solid white 1px;
     }
     .hero-kanji{
         display: flex;
@@ -91,8 +91,7 @@
     .kanji {
         width: 500px;
         height: 224px;
-        border-right: solid white 1px;
-        border-bottom: solid white 1px;
+        
     }
 }
 
@@ -120,8 +119,6 @@
         width: 280px !important;
         margin-left: 20px !important; 
         margin-top: 100px !important;
-        border-left: solid white 1px;
-        border-bottom: solid white 1px;
     }
     .hero-kanji{
         display: flex;
@@ -133,8 +130,7 @@
     .kanji {
         width: 450px;
         height: 200px;
-        border-right: solid white 1px;
-        border-bottom: solid white 1px;
+       
     }
 }
 @media (max-width: 767px){
@@ -161,8 +157,6 @@
         width: 200px !important;
         margin-left: 20px !important; 
         margin-top: 100px !important;
-        border-left: solid white 1px;
-        border-bottom: solid white 1px;
     }
     .hero-kanji{
         display: flex;
@@ -174,8 +168,7 @@
     .kanji {
         width: 380px;
         height: 190px;
-        border-right: solid white 1px;
-        border-bottom: solid white 1px;
+      
     }
 }
 @media (max-width: 499px){
@@ -202,8 +195,6 @@
         width: 180px !important;
         margin-left: 20px !important; 
         margin-top: 100px !important;
-        border-left: solid white 1px;
-        border-bottom: solid white 1px;
     }
     .hero-kanji{
         display: flex;
@@ -214,8 +205,7 @@
     .kanji {
         width: 300px;
         height: 170px;
-        border-right: solid white 1px;
-        border-bottom: solid white 1px;
+       
     }
 }
 
@@ -227,7 +217,6 @@
     .kanji {
         width: 250px;
         height: 120px;
-        border-right: solid white 1px;
-        border-bottom: solid white 1px;
+     
     }
 }
