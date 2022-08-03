@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+.about-us {
+    font-family: "DM Sans", sans-serif;
+    height: 100vh;
+    padding-top: 200px;
+    background: -webkit-linear-gradient(55deg, #131313 0%, #2c2c2c 100%);
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+}
+
+.row {
+    flex-wrap: nowrap !important;
+}
+
+.dash {
+    background-color: white;
+    width: 35px !important;
+    height: 2px;
+    margin-right: 25px;
+    margin-top: 24px !important;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: #949494;
+    padding-bottom: 45px;
+    padding-top: 25px;
+    width: 520px;
+}
+
+.buttom {
+    font-size: 25px;
+    color: #f5f5f5;
+    border-color: #f1cf3b;
+    background-color: rgba(255, 255, 255, 0);
+    width: 400px;
+    height: 70px;
+    border-radius: 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.buttom:hover {
+    transition: ease-in-out 0.2s;
+    border-color: white;
+}
+
+@media (max-width: 700px) {
+    .paragraph {
+        width: auto;
+    }
+
+    .buttom{
+        width: auto;
+        font-size: 20px;
+    }
+
+    .about-us-info{
+        padding-right: 0 !important;
+        width: 300px !important;
+    }
+
+    .row {
+        flex-wrap: nowrap !important;
+    }
+
+    .dash {
+        background-color: white;
+        width: 10px !important;
+        margin-top: 18px !important;
+    }
+
+    .about-us{
+        padding-top: 100px;
+    }
+}
+
