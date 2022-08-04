@@ -9,4 +9,5 @@
 
 - Typescript.
 - React.
+- Cypress.
 - Working...
