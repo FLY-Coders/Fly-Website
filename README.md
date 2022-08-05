@@ -23,7 +23,7 @@
 
   O projeto está sendo desenvolvido em Typescript utilizando o Nodejs para execução e instalação das dependências.
 
-  Para instalar as dependências digite o comando abaixo:
+  Para instalar as dependências digite um dos comandos abaixo:
 
 ```
 npm install
