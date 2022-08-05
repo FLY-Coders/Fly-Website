@@ -53,7 +53,7 @@ yarn start
   Estamos utilizando os serviços da plataforma *Netlify*, um modelo de serviço de computação em nuvem que possibilita o uso de uma plataforma ágil e rica em recursos para a criação de websites e aplicativos personalizados.
 
   Atualmente existem duas aplicações FLY Website online, o ambiente de desenvolvimento e o ambiente de produção.
-  O ambiente de desenvolvimento é voltado para testes de novas implementações, a fim de manter um maior controle de versionamento para controlar a estabilidade do ambiente de produção.
+  O ambiente de desenvolvimento é voltado para testes de novas implementações, a fim de manter um maior controle de versionamento para garantir a estabilidade do ambiente de produção.
 
 - [Ambiente de desenvolvimento](https://dev-flycoders.netlify.app)
 
@@ -116,7 +116,7 @@ yarn start
   We are using the services of the *Netlify* platform, a model of cloud computing service that enables the use of an agile and resource-rich platform for the creation of websites and custom applications.
 
   There are currently two FLY Website applications online, the development environment and the production environment.
-  The development environment is geared towards testing new implementations in order to maintain greater version control to control the stability of the production environment.
+  The development environment is geared towards testing new implementations in order to maintain greater version control to guarantee the stability of the production environment.
 
 - [Development environment](https://dev-flycoders.netlify.app)
 
