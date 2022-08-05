@@ -3,6 +3,8 @@
     src: url(../../vendor/font/De\ Valencia\ \(beta\).otf);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
 .hero-section {
     font-family: DeValencia;
     background: -webkit-linear-gradient(55deg, #131313 0%,#2c2c2c 100%); 
@@ -22,26 +24,24 @@
 .hero-paragraph {
     color: #534f4f;
     font-size: 2rem;
-    margin-top: 20px;
-    margin-left: 125px;
+    margin-top: 35px;
+    margin-left: 196px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     position: relative;
-    width: 30%;
+    width: 50%;
 }
 
 .logo{
     margin-top: 10px;
 }
 
-.hero-logo{
+.hero-logo {
     height: 400px;
     width: 400px;
-    margin-left: 85px;
-    margin-top: 120px;
-
-    
+    margin-left: 157px;
+    margin-top: 166px;
 }
 
 .hero-kanji{
@@ -54,9 +54,31 @@
     bottom: 210px;
     
 }
-.kanji {
-    margin-right: 175px;
 
+.kanji {
+    margin-right: 300px;
+    height: 420px;
+    opacity: 0.5;
+}
+
+.scroll-down {
+    writing-mode: vertical-rl;
+    height: 200px;
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    right: 130px;
+    top: 290px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    transition: ease-in-out 0.3;
+}
+.scroll-down:hover {
+    color: #f1cf3b;
+    transition: ease-in-out 0.3;
 }
 
 @media (max-width: 1450px){
@@ -65,16 +87,15 @@
         margin-left: 0px;
     } 
     .hero-paragraph {
-        margin-top: 16px;
-        margin-left: 73px;
+        margin-top: 124px;
+        margin-left: 100px;
         font-size: 1.8rem;
     }
     .hero-section{
         height: 100vh;
     }
     .logo{
-        height: 300px;
-        width: 300px;
+        height: 400px;
     }
     .hero-logo{
         height: 300px !important;
@@ -89,9 +110,8 @@
         margin-top: 100px;
     }
     .kanji {
-        width: 500px;
-        height: 224px;
-        
+        margin-right: 165px;
+        width: 370px;
     }
 }
 
@@ -101,19 +121,15 @@
         margin-left: 0px;
     }  
     .hero-paragraph {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-top: 76px;
+        margin-left: 53px;
     }
     .hero-section{
         height: 100vh;
-
     }
-
     .logo{
-        height: 280px;
-        width: 280px;
+        height: 333px;
     }
-
     .hero-logo{
         height: 280px !important;
         width: 280px !important;
@@ -128,9 +144,13 @@
     
     }
     .kanji {
-        width: 450px;
-        height: 200px;
-       
+        height: 325px;
+        margin-right: 105px;
+    }
+
+    .scroll-down {
+        right: 48px;
+        top: 218px;
     }
 }
 @media (max-width: 767px){
@@ -139,19 +159,16 @@
         margin-left: 0px;
     }  
     .hero-paragraph {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-top: 123px;
+        margin-left: 48px;
     }
     .hero-section{
         height: 100vh;
 
     }
-
-    .logo{
-        height: 200px;
-        width: 200px;
+    .logo {
+        height: 303px;
     }
-
     .hero-logo{
         height: 200px !important;
         width: 200px !important;
@@ -166,9 +183,8 @@
     
     }
     .kanji {
-        width: 380px;
-        height: 190px;
-      
+        height: 311px;
+        margin-right: 65px;
     }
 }
 @media (max-width: 499px){
@@ -177,19 +193,17 @@
         margin-left: 0px;
     }  
     .hero-paragraph {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-top: 30px;
+        margin-left: 36px;
+        font-size: 20px;
     }
-    .hero-section{
-        height: 100vh;
-
+    .hero-section {
+        height: 65vh;
     }
-
     .logo{
         height: 180px;
         width: 180px;
     }
-
     .hero-logo{
         height: 180px !important;
         width: 180px !important;
@@ -203,20 +217,23 @@
     
     }
     .kanji {
-        width: 300px;
-        height: 170px;
-       
+        height: 170px;  
+    }
+    .scroll-down {
+        right: 36px;
+        top: 98px;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 375px){
     .hero-section{
-        height: 100vh;
-
+        height: 100vh;  
     }
-    .kanji {
-        width: 250px;
-        height: 120px;
-     
+    .kanji {    
+        height: 170px;
+    }
+    .hero-section {
+        height: 65vh;
     }
 }
