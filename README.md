@@ -98,7 +98,7 @@ ou
 yarn add
 ```
 
-  To start the project locally, type one of the commands belowÇ
+  To start the project locally, type one of the commands below:
 
 ```
 npm start
